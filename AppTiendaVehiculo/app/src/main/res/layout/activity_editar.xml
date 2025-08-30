@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText android:id="@+id/txtMarca"
+        android:hint="Marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/txtModelo"
+        android:hint="Modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/txtColor"
+        android:hint="Color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/txtPrecio"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/txtPlaca"
+        android:hint="Placa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:text="Actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

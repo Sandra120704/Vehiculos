@@ -1,2 +1,20 @@
 node_modules
 .env 
+
+# Android Studio
+AppTiendaVehiculo/.gradle/
+AppTiendaVehiculo/.idea/
+AppTiendaVehiculo/build/
+AppTiendaVehiculo/local.properties
+AppTiendaVehiculo/*.iml
+
+
+# Generales
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Ignorar backups grandes pero sí permitir scripts .sql
+db/*.bak
+db/*.dump

@@ -78,7 +78,7 @@ nodemon app
 
 (http://localhost:3000/)
 
-# 📱 App Android (AppTiendaVehiculo)
+# App Android (AppTiendaVehiculo)
 
 Dentro de la carpeta `AppTiendaVehiculo/` se encuentra la app móvil desarrollada en **Android Studio**.
 
